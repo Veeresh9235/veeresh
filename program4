@@ -4,3 +4,4 @@ JohnDoe"
 git commit - -allow-empty - -author="Alice <alice@example.com>" -m "Commit by Alice"
 git log - -oneline - -pretty=format:"%h %an %ad %s"
 git log --author="JohnDoe" --since="2025-01-01 00:00" --until="2025-12-31 23:59"
+
